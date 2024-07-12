@@ -47,7 +47,7 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          I am a junior at Rutgers University–New Brunswick, where I am pursuing
+          I am a rising senior at Rutgers University–New Brunswick, where I am pursuing
           a Bachelor's Degree in Computer Science as well as Data Science. I am
           currently looking for a Technology Internship to gain work experience
           and apply my skills in real-world scenarios. I am deeply passionate
