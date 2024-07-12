@@ -9,7 +9,6 @@ import githubDark from '../../assets/github-dark.svg';
 import CV from '../../assets/Pranav Rao Resume.pdf';
 import { useTheme } from '../../Common/ThemeContext.jsx';
 
-
 function Hero() {
   const { theme, toggleTheme } = useTheme();
 
@@ -47,14 +46,14 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          I am a junior at Rutgers University–New Brunswick, where I am pursuing
-          a Bachelor's Degree in Computer Science as well as Data Science. I am
-          currently looking for a Technology Internship to gain work experience
-          and apply my skills in real-world scenarios. I am deeply passionate
-          about exploring the intersection of Data Analytics and Computer
-          Programming. I have experience in programming in different languages
-          and expanding my knowledge in data modeling. I am highly motivated and
-          looking forward to the challenges ahead!
+          I am a rising senior at Rutgers University–New Brunswick, where I am
+          pursuing a Bachelor's Degree in Computer Science as well as Data
+          Science. I am currently looking for a Technology Internship to gain
+          work experience and apply my skills in real-world scenarios. I am
+          deeply passionate about exploring the intersection of Data Analytics
+          and Computer Programming. I have experience in programming in
+          different languages and expanding my knowledge in data modeling. I am
+          highly motivated and looking forward to the challenges ahead!
         </p>
         <a href={CV} download>
           <button className="hover"> Resume </button>
